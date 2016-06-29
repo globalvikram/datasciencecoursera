@@ -1,11 +1,7 @@
-# TODO: Add comment
-# 
+# Function: This file will load large dataset.
 # Author: Vikram Prasad
 ###############################################################################
 
-##setwd("C:\Users\vikram\Desktop\Big Data & Hadoop\Data Science Specialization\CourseraDir")
-
-## This file is for loading the large dataset.
 filename <- "./exdata_Fdata_Fhousehold_power_consumption/household_power_consumption.txt"
 data <- read.table(filename,
                    header = TRUE,
